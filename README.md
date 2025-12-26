@@ -1,4 +1,4 @@
-# 🎄 Tiny Model Train Christmas Ornament (2025)
+# SeanVille Model Train Christmas Ornament (2025)
 
 [![Watch the video](https://img.youtube.com/vi/DlL3AunnM_I/0.jpg)](https://youtu.be/DlL3AunnM_I?si=Leu87hB8kkKHowt8)
 
@@ -17,8 +17,6 @@ The original concept explored an electronically driven track, using timed contro
 
 The current version uses a **tiny mechanical belt system** that moves a magnet beneath the board.  
 As the magnet advances, the train follows along the track above.
-
-Simple. Reliable. Still very cool.
 
 ---
 
