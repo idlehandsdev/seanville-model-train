@@ -1,0 +1,110 @@
+(footprint "power_connector_2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x04, 2.00mm pitch, single row")
+	(tags "Through hole pin header THT 1x04 2.00mm single row")
+	(property "Reference" "REF**"
+		(at 0 -2.11 0)
+		(layer "F.SilkS")
+		(uuid "65082565-105a-4f68-93c0-7cbd4219e1d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "power_connector_2mm"
+		(at 0 8.11 0)
+		(layer "F.Fab")
+		(uuid "5d1451ab-50eb-432d-ae71-fe46b8f2da4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7630da7f-0d14-4c2b-b2a5-28833942efa9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "651a3b47-b39e-4cfd-bfca-b1e586ddc3df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 2.37 3 90)
+		(layer "F.Fab")
+		(uuid "866a3704-be69-43ea-8d2e-8639a5233442")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 2.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f56d91b3-c86a-43dd-9928-ef4f9fd0ff41")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2)
+		(size 2.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3191e27f-1e0d-4152-a31a-007b3b42f371")
+	)
+	(pad "3" thru_hole oval
+		(at 0 4)
+		(size 2.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be102152-d78f-4092-a47f-a16e9676b4e4")
+	)
+	(pad "4" thru_hole oval
+		(at 0 6)
+		(size 2.35 1.35)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c3913352-3352-4f95-8303-0da00d3a0bcd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x04_P2.00mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
