@@ -1,0 +1,81 @@
+Instructables
+
+Parts
+1 x Neodymium Magnet 1/16" Thick, 0.1" OD - https://www.mcmaster.com/5862K426/ 
+1 x Neodymium Magnet 1/16" Thick, 1/16" OD - https://www.mcmaster.com/5862K137/  (get a bunch theyre small)
+M2 x 10mm Plastic Threading Screws
+M2 x 8mm Plastic Threading Screws
+3x8x4mm Bearings x 4
+1.5mm Belt ~ 10.75 length"
+Adafruit Wireless LED Kit
+Adafruit Feather ESP32 V2
+Dotstar LED Strip (A couple Inches)
+Tiny 0.6-0.8 wire (I used leads from a Capacitor)
+Right Angle Geared DC Motor
+Cut Dotstar LED Strip (16 LEDs)
+Circuit Board from PCB - link to project
+
+
+Electrical Component BOM(refer to schematics)
+		
+1N4148W Diotec Semiconductor x 4	
+MBR230LSFT1G  x 1	
+MF-USML300/12-2 x 4	
+6 Pin 2.54mm Screw Terminal 1725698 Phoenix Contact x 1	
+2 Pin 3.5mm Screw Terminal 1751248 Phoenix Contact x 2
+4 Pin 2.54mm Screw Terminal x 1	
+PJ-063AH x 1	
+AOSP36326C x 4	
+220R Resistor 0805 x 4
+10K Resistor 0805 x 4
+01x16 Pin Socket x 1
+01x12 x 1
+
+Parts to Print
+Some parts require a 0.2mm nozzle
+
+Leg LED Ring x 1
+Legs x 2
+Track Base Belt Guide x 1
+Motor Clamp Half x 1
+Idler Pulley 11mm x 1
+Idler Pulley 14mm x 1
+Idler Pulley 18.8mm x 1
+Idler Pulley 22mm x 1
+Drive Pulley x 1
+LED_Clip x 6
+
+
+Optional Parts to Print(as needed)
+Workshop
+Trees_Three
+House_Big
+House_Small
+Lake
+Mountain
+
+Fusion360 File Viewer - https://a360.co/49g66Fe
+Instructables - https://www.instructables.com/Extremely-Tiny-Model-Train-Christmas-Ornament/
+PCBWay PCB Project - https://www.pcbway.com/project/shareproject/SeanVille_Tiny_Model_Train_Christmas_Ornament_Controller_4a13288b.html
+
+
+Instructables Steps:
+
+-) Watch the Video
+-) Get the parts
+-) Start the 3d prints, you'll be printing a lot of small stuff
+-) Apply paste to PCB
+-) Add small components and Reflow
+-) Solder Through Hole Components - Use the Fusion360 CAD file for reference
+-) Push the bearings into the 4 pulleys, and mount the pulleys on the Track Base Belt Guide Screw them down with M2 plastic threading screws
+-) Push the drive pulley onto the DC Motor, add the motor clamp to hold it down, you need to align the center of the shaft with the center of the Track Base Belt Guide, align and tighten down
+-) Route the Belt around the drive and idlers
+-)Print Engine and Install Magnet and Wire
+-) Insert the larger of the two neodymium magnets into the track and under the belt, the magnet moves by friction from the belt moving overtop of it.
+-) Use doublesided tape to secure the LED strip to the underside of the hoop, apple the 3D printed clips to help the adhesive, route the LED strip wires through the hole.
+-) Attach the completed circuit board to the bottom of the hoop connections, attach the legs to the circuit board as well, before installing the final leg, insert the wireless LED coil. The legs and slot will hold it in place. Connect the wires to the control board.
+ 
+
+ 
+
+
