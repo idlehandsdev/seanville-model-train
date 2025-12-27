@@ -7089,24 +7089,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 245.11 133.35 0)
+		(at 245.11 135.89 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "876665e0-173b-4a61-8d53-93f15882a6d4")
 		(property "Reference" "J2"
-			(at 248.285 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ST_BLA"
 			(at 248.285 135.89 0)
 			(effects
 				(font
@@ -7115,8 +7106,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "ST_BLA"
+			(at 248.285 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
-			(at 245.11 133.35 0)
+			(at 245.11 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +7125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 133.35 0)
+			(at 245.11 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +7134,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 133.35 0)
+			(at 245.11 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7142,7 +7142,7 @@
 			)
 		)
 		(property "Digikey Part No." "277-5719-ND"
-			(at 245.11 133.35 0)
+			(at 245.11 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8762,16 +8762,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 109.22 139.7 0)
+		(at 109.22 142.24 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dec8c726-d3d7-4245-8ee0-5f6dd886294a")
 		(property "Reference" "J1"
-			(at 111.76 139.6999 0)
+			(at 111.76 142.2401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +8780,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 111.76 142.2399 0)
+			(at 111.76 139.7001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8788,8 +8788,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 109.22 139.7 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
+			(at 109.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8798,7 +8798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 139.7 0)
+			(at 109.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8807,7 +8807,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 109.22 139.7 0)
+			(at 109.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8816,7 +8816,7 @@
 			)
 		)
 		(property "Digikey Part No." "732-691210910004-ND"
-			(at 109.22 139.7 0)
+			(at 109.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
